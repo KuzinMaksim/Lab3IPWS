@@ -1,0 +1,278 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 24px;
+    isolation: isolate;
+    position: absolute;
+    width: 1920px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    background: #E0CA00;
+    border: 2px solid #000000;
+}
+.text1 {
+    position: absolute;
+    width: 500px;
+    height: 53px;
+    left: 30px;
+    top: 41.5px;
+    font-family: 'Comic Sans Ms',  sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 53px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.32px;
+    color: #060605;
+}
+.butts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 320px;
+    height: 45px;
+    left: 1576px;
+    top: 46px;    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    z-index: 0;
+}
+.but1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 10px;    
+    width: 125px;
+    height: 60px;
+    background: #F2F2F2;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;;
+font-family: 'Comic Sans Ms',  sans-serif;
+font-size: 20px;
+}
+.but2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    width: 125px;
+    height: 60px;
+    border-radius: 4px;  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+font-family: 'Comic Sans Ms',  sans-serif;
+font-size: 20px;
+}
+.content {
+    position: relative;
+width: 1920px;
+height: 1662px;
+background: #28F4E8;
+}
+.about {
+    position: absolute;
+width: 700px;
+height: 62px;
+left: 182px;
+top: 190px;
+}
+.abm {
+    position: absolute;
+width: 170px;
+height: 43px;
+left: 60px;
+top: 0px;
+font-family: 'Comic Sans Ms',  sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 37px;
+line-height: 43px;
+display: flex;
+align-items: center;
+letter-spacing: -0.32px;
+color: #000000;
+}
+.photo {
+    box-sizing: border-box;
+position: absolute;
+width: 433px;
+height: 490px;
+left: 1199px;
+top: 224px;
+border: 1px solid #000000;
+}
+.rect {
+    box-sizing: border-box;
+position: absolute;
+width: 433px;
+height: 490px;
+left: 1273px;
+top: 263px;
+background: #FFFFFF;
+border: 1px solid #000000;
+}
+.table {
+    box-sizing: border-box;
+position: absolute;
+left: 215px;
+top: 300px;
+border: 1px dashed #000000;
+border-radius: 5px;
+background: #FFFFFF;
+}
+.cell1 {
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 16px;
+gap: 10px;
+width: 265px;
+height: 50px;
+background-color: #F8F9FA;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+font-family: 'Comic Sans Ms',  sans-serif;
+color: #000000;
+}
+.cell2 {
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 16px;
+gap: 10px;
+width: 321px;
+height: 50px;
+background-color: #FFFFFF;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+font-family: 'Comic Sans Ms',  sans-serif;
+color: #000000;
+}
+.prog {
+    position: absolute;
+width: 808px;
+height: 66px;
+left: 182px;
+top: 787px;
+}
+.why {
+    position: absolute;
+width: 220px;
+height: 43px;
+left: 80px;
+top: 10px;
+font-family: 'Comic Sans Ms',  sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 37px;
+line-height: 43px;
+display: flex;
+align-items: center;
+letter-spacing: -0.32px;
+color: #000000;
+}
+.pipa {
+    position: absolute;
+width: 450px;
+height: 363.81px;
+left: 182px;
+top: 1070px;
+float: left;
+}
+.text {
+    position: absolute;
+width: 1656px;
+height: 140px;
+left: 186px;
+top: 910px;
+font-family: 'Comic Sans Ms',  sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+display: flex;
+align-items: center;
+letter-spacing: -0.32px;
+color: #000000;
+}
+.foot {
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px 16px 16px;
+gap: 24px;
+isolation: isolate;
+position: absolute;
+width: 1920px;
+height: 200px;
+left: 0px;
+top: 1461px;
+background: #E0CA00;
+border: 2px solid #000000;
+}
+.foottext {
+    position: absolute;
+width: 500px;
+height: 43px;
+left: 97px;
+top: 78px;
+font-family: 'Comic Sans Ms',  sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 43px;
+display: flex;
+align-items: center;
+letter-spacing: -0.32px;
+color: #605F53;
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 0;
+}
+.text2 {
+    position: absolute;
+    width: 906px;
+    height: 140px;
+    left: 706px;
+    top: 1210px;
+    font-family: 'Comic Sans Ms',  sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.32px;
+    color: #000000;   
+}
+.spisok {
+    position: absolute;
+    width: 1006px;
+    height: 300px;
+    left: 706px;
+    top: 1110px;
+    font-family: 'Comic Sans Ms',  sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.32px;
+    color: #000000;   
+}
